@@ -37,18 +37,21 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background: #5F2C82 url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
-    background-position: right bottom;
+    background-position: left bottom;
     height: 200px;
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
-    
+
 }
